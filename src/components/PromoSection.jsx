@@ -43,12 +43,12 @@ const promoData = [
   },
   {
     id: 5,
-    imageUrl: '/assets/products/halter.png', // <-- Adicione a imagem real aqui
-    title: 'Poli Sport Halter Emborrachado 05kg preto',
-    description: 'Para você ficar fitness', // Sem descrição
-    oldPrice: 141.27,
-    newPrice: '00,00', // Coloquei um preço de exemplo, já que "R$ 0" era só do layout
-    discount: 100,
+    imageUrl: '/assets/products/iphone-13.png', // <-- Adicione a imagem real aqui
+    title: 'Apple iPhone 13',
+    description: 'XDR, 12MP; Estilos fotográficos, Smart HDR 4, A15.',
+    oldPrice: '2815,00',
+    newPrice: '2174,00',
+    discount: 23,
   },
   {
     id: 6,
