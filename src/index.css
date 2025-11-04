@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-astro-dark: #0f0b2a;
+  --color-astro-blue: #3b82f6;
+  --color-astro-purple: #8b5cf6;
+  --color-astro-silver: #c0c0c0;
+  --color-astro-light: #e0e7ff;
+  
+  --font-family-sans: 'Inter', sans-serif;
+  
+  --animate-float: float 6s ease-in-out infinite;
+  --animate-shine: shine 1.5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(-3%); }
+  50% { transform: translateY(3%); }
+}
+
+@keyframes shine {
+  0% { transform: skewX(-20deg) translateX(-200px); }
+  100% { transform: skewX(-20deg) translateX(calc(100vw + 200px)); }
+}
+
+body {
+  @apply bg-astro-dark text-astro-light;
+  
+  /* Fundo gradiente + estrelas sutis (efeito tecnológico) */
+  background-color: #0f0b2a;
+  background-image: 
+    radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%),
+    radial-gradient(at center, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 60%);
+  background-size: 
+    100% 100%,
+    2px 2px; /* Tamanho das "estrelas" */
+  
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Estilo de botão brilhante personalizado */
+.btn-shine {
+    @apply relative overflow-hidden;
+}
+
+.btn-shine::after {
+    content: '';
+    @apply absolute top-0 left-0 w-16 h-full bg-white opacity-20;
+    transform: skewX(-20deg) translateX(-200px);
+    animation: shine 1.5s ease-in-out infinite;
+    animation-delay: 0.5s; /* Delay para não ficar piscando o tempo todo */
+}
+
+.btn-shine:hover::after {
+    animation-play-state: paused; /* Pausa ao passar o mouse */
+}
