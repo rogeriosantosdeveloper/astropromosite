@@ -73,7 +73,7 @@ export function PromoSection() {
           viewport={{ once: true }}
           transition={{ duration: 0.5 }}
         >
-          Algumas de nossas <span className="text-astro-purple">ofertas</span>
+          Algumas de nossas <span className="text-astro-purple">ofertas recentes</span>
         </motion.h2>
         
         {/* Galeria de Promoções */}
