@@ -41,7 +41,7 @@ const promoData = [
     title: 'Fralda Turma da Mônica Baby Premium pants Tam. P, 2 Pacotes 26 Unidades',
     description: 'Conforto e proteção para seu bebê.',
     oldPrice: '21,00',
-    newPrice: '01,00',
+    newPrice: '1,00',
     discount: 95,
     telegramLink: 'https://t.me/astropromo/1265',
   },
