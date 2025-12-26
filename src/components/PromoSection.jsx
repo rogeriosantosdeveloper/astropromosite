@@ -38,8 +38,8 @@ const promoData = [
   {
     id: 4,
     imageUrl: '/assets/products/tvtcl.png',
-    title: 'Smart Tv Tcl 55 Polegadas P7k Wifi Bluetooth Dolby Vision',
-    description: 'Tela QLED 4K, HDR10+, Dolby Atmos, Google TV.',
+    title: 'Smart Tv Tcl 55 Polegadas',
+    description: 'P7k Wifi, Bluetooth, Dolby Vision, Tela QLED 4K, HDR10+, Dolby Atmos, Google TV.',
     oldPrice: '2.316,10',
     newPrice: '1.484,00',
     discount: 36,
