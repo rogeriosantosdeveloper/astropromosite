@@ -45,7 +45,7 @@ export function Hero() {
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8, delay: 0.6, ease: 'easeOut' } }}
       >
         <a
-          href="https://whatsapp.com/channel/0029VbBOD5mCBtx84LuExb2u" // <-- COLOQUE SEU LINK DO WHATSAPP AQUI
+          href="https://chat.whatsapp.com/CtXTI0RUR1xL5eJpFjjiKu" // <-- COLOQUE SEU LINK DO WHATSAPP AQUI
           className="flex-1 btn-shine flex items-center justify-center gap-3 text-lg font-bold text-white bg-green-500 rounded-lg p-4 transition-all duration-300 transform hover:scale-105 hover:bg-green-400 focus:outline-none focus:ring-2 focus:ring-green-300"
         >
           <FaWhatsapp size={24} />
