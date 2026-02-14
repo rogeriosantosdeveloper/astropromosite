@@ -35,7 +35,7 @@ export function Hero() {
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0, transition: { duration: 0.8, delay: 0.4, ease: 'easeOut' } }}
       >
-        Entre para nossa comunidade e economize com as melhores ofertas.
+        Entre para nossa comunidade e economize com as melhores ofertas. VAGAS ESGOTANDO!!
       </motion.p>
 
       {/* 3. Botões de Ação */}
