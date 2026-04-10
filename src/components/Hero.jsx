@@ -49,7 +49,7 @@ export function Hero() {
           className="flex-1 btn-shine flex items-center justify-center gap-3 text-lg font-bold text-white bg-green-500 rounded-lg p-4 transition-all duration-300 transform hover:scale-105 hover:bg-green-400 focus:outline-none focus:ring-2 focus:ring-green-300"
         >
           <FaWhatsapp size={24} />
-          Entrar no grupo WhatsApp
+          Entrar no grupo VIP WhatsApp
         </a>
         <a
           href="https://t.me/astropromo" // <-- COLOQUE SEU LINK DO TELEGRAM AQUI
