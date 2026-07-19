@@ -27,13 +27,13 @@ const promoData = [
   },
   {
     id: 3,
-    imageUrl: '/assets/products/creatina.png',
-    title: 'Creatina Monohidratada Black Skull Creatine Turbo - 150g',
-    description: 'Com maltodextrina. Aumente sua força e desempenho.',
-    oldPrice: '20,00',
-    newPrice: '00,00',
-    discount: 100,
-    telegramLink: 'https://t.me/astropromo/1261',
+    imageUrl: '/assets/products/corsair-nautilus-360.png', // <-- adicione a foto do produto aqui
+    title: 'Cooler Líquido Corsair Nautilus 360 RS',
+    description: '360mm AIO, baixo ruído, conexão direta na placa-mãe, Daisy-Chain, 3x fans RS120. Intel LGA 1851/1700, AMD AM5/AM4.',
+    oldPrice: '599,99',
+    newPrice: '46,00',
+    discount: 92,
+    telegramLink: 'https://t.me/astropromo/26600',
   },
   {
     id: 4,

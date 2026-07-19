@@ -71,7 +71,7 @@ export function PromoCard({
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           >
-            R$ {newPrice}
+            {newPrice === '0,00' ? 'GRÁTIS 🎁' : `R$ ${newPrice}`}
           </motion.span>
           {discount && (
             <motion.span 

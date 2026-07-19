@@ -3,6 +3,8 @@
 import { Hero } from './components/Hero';
 import { Stats } from './components/Stats';
 import { PromoSection } from './components/PromoSection';
+import { CTASection } from './components/CTASection';
+import { StickyCTA } from './components/StickyCTA';
 import { Footer } from './components/Footer';
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
       <Hero />
       <Stats />
       <PromoSection />
+      <CTASection />
       <Footer />
+      <StickyCTA />
     </main>
   )
 }

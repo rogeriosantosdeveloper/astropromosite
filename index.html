@@ -3,19 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/png" href="/assets/logo-site.png" />
-    <link rel="apple-touch-icon" href="/assets/logo-site.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Descubra as melhores promoções do universo! Entre para nossa comunidade e economize com as melhores ofertas." />
-    <title>Astro Promo</title>
-    
-    <!-- Microsoft Clarity -->
-    <script type="text/javascript">
-      (function(c,l,a,r,i,t,y){
-          c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-          t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-          y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "ujjy94p4ls");
-    </script>
+    <title>Astro Promo — Descubra as melhores promoções do universo!</title>
+    <meta name="description" content="Entre para nossa comunidade e economize com as melhores ofertas. Vagas esgotando!" />
+
+    <!-- Open Graph (melhora a preview do link no Facebook/Instagram Ads) -->
+    <meta property="og:title" content="Astro Promo — Descubra as melhores promoções do universo!" />
+    <meta property="og:description" content="Entre para nossa comunidade e economize com as melhores ofertas." />
+    <meta property="og:image" content="/assets/logo-site.png" />
+    <meta property="og:type" content="website" />
 
     <!-- Meta Pixel Code -->
     <script>
@@ -30,12 +26,20 @@
       fbq('init', '831093853054807');
       fbq('track', 'PageView');
     </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=831093853054807&ev=PageView&noscript=1"
-    /></noscript>
     <!-- End Meta Pixel Code -->
   </head>
   <body>
+    <!-- Meta Pixel Code (noscript) -->
+    <noscript>
+      <img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=831093853054807&ev=PageView&noscript=1"
+      />
+    </noscript>
+    <!-- End Meta Pixel Code (noscript) -->
+
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

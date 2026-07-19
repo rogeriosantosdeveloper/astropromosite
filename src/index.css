@@ -27,6 +27,10 @@
 
 body {
   @apply bg-astro-dark text-astro-light;
+
+  /* Espaço extra no fim, no mobile, pra barra de CTA fixa não tapar o rodapé */
+  padding-bottom: 72px;
+
   
   /* Fundo gradiente + estrelas sutis (efeito tecnológico) */
   background-color: #0f0b2a;
@@ -57,4 +61,10 @@ body {
 
 .btn-shine:hover::after {
     animation-play-state: paused; /* Pausa ao passar o mouse */
+}
+/* Acima do breakpoint md a barra de CTA fixa não existe, então remove o respiro extra */
+@media (min-width: 768px) {
+  body {
+    padding-bottom: 0;
+  }
 }
