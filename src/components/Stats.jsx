@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion';
 
 const stats = [
-  { id: 1, value: "+800", name: "Membros Ativos" },
+  { id: 1, value: "+1000", name: "Membros Ativos" },
   { id: 2, value: "+25.000", name: "Postagens" },
   { id: 3, value: "Diárias", name: "Promoções Exclusivas" },
 ];
